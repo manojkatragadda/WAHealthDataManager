@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 WAHealthDataManager will help user fetch HealthKit Data from iPhone for HeartRate, Step Count, Active Energy burned and Distance travelled walking & running.
                        DESC
 
-  s.homepage         = 'https://github.com/Manoj Katragadda/WAHealthDataManager'
+  s.homepage         = 'https://github.com/manojkatragadda/WAHealthDataManager'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Manoj Katragadda' => 'manoj@webileapps.com' }
-  s.source           = { :git => 'https://github.com/Manoj Katragadda/WAHealthDataManager.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/manojkatragadda/WAHealthDataManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
