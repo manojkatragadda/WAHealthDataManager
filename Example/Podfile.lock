@@ -1,0 +1,16 @@
+PODS:
+  - WAHealthDataManager (1.0.0)
+
+DEPENDENCIES:
+  - WAHealthDataManager (from `../`)
+
+EXTERNAL SOURCES:
+  WAHealthDataManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WAHealthDataManager: 0cb74f51724f8e8a38957341f027f99608968e04
+
+PODFILE CHECKSUM: 45881d61bb6e12d9b6e198b32270667d60833d4c
+
+COCOAPODS: 1.7.5

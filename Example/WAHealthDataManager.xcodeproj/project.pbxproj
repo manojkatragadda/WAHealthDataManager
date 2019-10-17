@@ -24,6 +24,7 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9CFCE75337084B11C21CC525 /* Pods_WAHealthDataManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FE06AA7AED59DFDFB54D05 /* Pods_WAHealthDataManager_Example.framework */; };
+		AFF6A6C3235847B200B3764E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF6A6C2235847B200B3764E /* HealthKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		12416F33863CF701618573F2 /* WAHealthDataManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WAHealthDataManager.podspec; path = ../WAHealthDataManager.podspec; sourceTree = "<group>"; };
+		12416F33863CF701618573F2 /* WAHealthDataManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WAHealthDataManager.podspec; path = ../WAHealthDataManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		16FE06AA7AED59DFDFB54D05 /* Pods_WAHealthDataManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAHealthDataManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC9B9FB913E3DB03E47FCE /* Pods-WAHealthDataManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAHealthDataManager_Example.release.xcconfig"; path = "Target Support Files/Pods-WAHealthDataManager_Example/Pods-WAHealthDataManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		50492188267CFC13CCB07B9B /* Pods-WAHealthDataManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAHealthDataManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-WAHealthDataManager_Example/Pods-WAHealthDataManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -61,12 +62,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		720097A99D2E007B3C3C269C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		720097A99D2E007B3C3C269C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		72A7C5F1B2DD18B8D8D05AE5 /* Pods-WAHealthDataManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAHealthDataManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WAHealthDataManager_Tests/Pods-WAHealthDataManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		91521E7E37E2F9006BC4C204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		91521E7E37E2F9006BC4C204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		98A7FCEC2B38706EA1902636 /* Pods_WAHealthDataManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WAHealthDataManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD4848FCE636DD8EF0623EF /* Pods-WAHealthDataManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WAHealthDataManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-WAHealthDataManager_Tests/Pods-WAHealthDataManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AFF6A6C1235847B100B3764E /* WAHealthDataManager_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WAHealthDataManager_Example.entitlements; sourceTree = "<group>"; };
+		AFF6A6C2235847B200B3764E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				9CFCE75337084B11C21CC525 /* Pods_WAHealthDataManager_Example.framework in Frameworks */,
+				AFF6A6C3235847B200B3764E /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +102,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				AFF6A6C1235847B100B3764E /* WAHealthDataManager_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for WAHealthDataManager */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -119,6 +124,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AFF6A6C2235847B200B3764E /* HealthKit.framework */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -193,7 +199,6 @@
 				72A7C5F1B2DD18B8D8D05AE5 /* Pods-WAHealthDataManager_Tests.debug.xcconfig */,
 				9FD4848FCE636DD8EF0623EF /* Pods-WAHealthDataManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +500,7 @@
 			baseConfigurationReference = 50492188267CFC13CCB07B9B /* Pods-WAHealthDataManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WAHealthDataManager_Example.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WAHealthDataManager/WAHealthDataManager-Prefix.pch";
 				INFOPLIST_FILE = "WAHealthDataManager/WAHealthDataManager-Info.plist";
@@ -510,6 +517,7 @@
 			baseConfigurationReference = 43CC9B9FB913E3DB03E47FCE /* Pods-WAHealthDataManager_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WAHealthDataManager_Example.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WAHealthDataManager/WAHealthDataManager-Prefix.pch";
 				INFOPLIST_FILE = "WAHealthDataManager/WAHealthDataManager-Info.plist";

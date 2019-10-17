@@ -7,7 +7,7 @@
 //
 
 #import "WAViewController.h"
-
+@import WAHealthDataManager;
 @interface WAViewController ()
 
 @end
@@ -18,6 +18,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    WAHealthDataManager *manager = [WAHealthDataManager shared];
+    NSDate *lastdate = [NSDate dateWithTimeIntervalSinceNow:-2*24*60*60];
+    [manager getHealthDataSince:lastdate withCompletionHandler:^(NSDictionary * _Nonnull responseDict, NSError * _Nonnull err) {
+        NSLog(@"Data from health kit is : %@", responseDict);
+    }];
 }
 
 - (void)didReceiveMemoryWarning

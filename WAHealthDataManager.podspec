@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WAHealthDataManager'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of WAHealthDataManager.'
+  s.version          = '1.0.0'
+  s.summary          = 'WAHealthDataManager will help user fetch the HealthKit data from iPhone'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+WAHealthDataManager will help user fetch HealthKit Data from iPhone for HeartRate, Step Count, Active Energy burned and Distance travelled walking & running.
                        DESC
 
   s.homepage         = 'https://github.com/Manoj Katragadda/WAHealthDataManager'
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Manoj Katragadda/WAHealthDataManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'WAHealthDataManager/Classes/**/*'
   

@@ -10,6 +10,12 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+Add HealthKit as part of your project's Capabilities under app target - Signing and Capabilities Tab. Ensure that you've enabled Clinical Records checkbox.
+Update plist to include the following details:
+<key>NSHealthClinicalHealthRecordsShareUsageDescription</key>
+<string>Health Kit Read in needed to fetch the details. Enter as much details as you can here.</string>
+<key>NSHealthShareUsageDescription</key>
+<string>Health Kit share details are also needed for this project setup</string>
 
 ## Installation
 
